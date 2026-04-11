@@ -36,10 +36,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173", // local frontend
-      "https://mygold-two.vercel.app", // deployed frontend
-      "https://goldfront.vercel.app",
-      "https://goldfrontadmin.vercel.app",
-      "https://legendary-eureka-tau.vercel.app"
+      "https://infillwear.vercel.app", // deployed frontend
+      
     ],
     credentials: true, // allow cookies
   })
