@@ -47,6 +47,10 @@ app.use(
 // ====== DATABASE ======
 DB();
 
+app.get('/health', (req, res) => {
+  res.status(200).json({ status: 'ok' });
+});
+
 // ====== ROUTES ======
 app.use("/user", userRouter);
 app.use("/products", productRouter);
