@@ -37,7 +37,8 @@ app.use(
     origin: [
       "http://localhost:5173", // local frontend
       "https://infillwear.vercel.app", // deployed frontend
-      "https://infillmade.vercel.app"
+      "https://infillmade.vercel.app",
+      "https://beoapparel.vercel.app"
       
     ],
     credentials: true, // allow cookies
