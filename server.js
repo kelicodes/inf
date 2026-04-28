@@ -39,7 +39,7 @@ app.use(
       "https://infillwear.vercel.app", // deployed frontend
       "https://infillmade.vercel.app",
       "https://beoapparel.vercel.app",
-      "https://beoadmin.vercel.app/"
+      "https://beoadmin.vercel.app"
       
     ],
     credentials: true, // allow cookies
