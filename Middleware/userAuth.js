@@ -7,7 +7,7 @@ export const UserAuth = (req, res, next) => {
   if (!authHeader) {
     return res.status(401).json({
       success: false,
-      message: "Login required"
+      message: "Login requir"
     });
   }
 
