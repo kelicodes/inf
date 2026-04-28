@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const OrderSchema = new mongoose.Schema({
   userId: { type: String, required: true },
-  checkoutRequestID: { type: String, unique: true }, // add this to track M-Pesa payments
+ checkoutRequestID: { type: String, unique: true, sparse: true }, // add this to track M-Pesa payments
   items: [
     {
       productId: { type: mongoose.Schema.Types.ObjectId, ref: "Product", required: true },
